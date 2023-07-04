@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: #164b60;
+}
+.container{
+    position: absolute;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 50%;
+    background: white;
+    border-radius: 8px;
+    min-width: 400px;
+    transform: translate(-50%,-50%);
+}
+#newTask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newTask input{
+    position: relative;
+    width: 75%;
+    height: 50px;
+    padding: 12px;
+    color: #000;
+    font-weight: 500;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#newTask input:focus{
+    outline: none;
+    border-color: #164b60;
+}
+#newTask button{
+    position: relative;
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #164b60;
+    border: none;
+    outline: none;
+    color: #ffff;
+    cursor: pointer;
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+}
+#taskList{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.taskhidden{
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bbe1f0;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.taskhidden span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.taskhidden button{
+    width: 45px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ffff;
+    cursor: pointer;
+}
